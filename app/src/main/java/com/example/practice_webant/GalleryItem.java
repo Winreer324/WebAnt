@@ -1,35 +1,31 @@
 package com.example.practice_webant;
 
 public class GalleryItem {
-    private String Caption;
-    private String Id;
-    private String Url;
-    @Override
-    public String toString() {
-        return Caption;
-    }
+    private String mCaption;
+    private String mId;
+    private String mUrl;
 
     public String getCaption() {
-        return Caption;
+        return mCaption;
     }
 
     public void setCaption(String caption) {
-        Caption = caption;
+        mCaption = caption;
     }
 
     public String getId() {
-        return Id;
+        return mId;
     }
 
     public void setId(String id) {
-        Id = id;
+        mId = id;
     }
 
     public String getUrl() {
-        return Url;
+        return mUrl;
     }
 
     public void setUrl(String url) {
-        Url = url;
+        mUrl = url;
     }
 }
